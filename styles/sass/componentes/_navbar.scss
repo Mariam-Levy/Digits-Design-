@@ -1,0 +1,42 @@
+.navbar {
+    min-height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    .navbar__container {
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        line-height: 35px;
+        .navbar__logo {
+            flex: 0.2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .navbar__list {
+            display: flex;
+            flex: 1;
+            justify-content: space-evenly;
+            .list__item {
+                font-size: 16px;
+                font-weight: 400;
+            }
+        }
+        .navbar__contact {
+            flex: 0.5;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            a {
+                margin-right: 15px;
+            }
+        }
+    }
+}
+
+
+
+
+
+

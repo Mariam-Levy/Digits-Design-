@@ -1,0 +1,142 @@
+@media (max-width: 814px) {
+    .testimonials {
+        .testimonials__section {
+            .testimonials__boxes {
+                .testimonials__items {
+                    width: 80% !important;
+                    
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .header {
+        .hero {
+            margin-top: 50px;
+            .hero__text {
+                .hero__text_title {
+                    font-size: 48px;
+                }
+            }
+        }
+    }
+    .home {
+        .middle__section {
+            margin-top: 40px;
+            margin-bottom: 60px;
+        }
+
+    }
+    .features {
+        .features__container {
+            .features__text {
+                margin-bottom: 60px;
+            }
+            .features__boxes {
+                .features__img {
+                    margin-bottom: 25px;
+                    display: flex;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .header {
+        .hero {
+            margin-top: 80px;
+        }
+    }
+    .message {
+        .message__container {
+            .message__box_left {
+                width: 100%;
+                text-align: center !important;
+                margin-bottom: 20px;
+            }
+            .message__box_rigth {
+                width: 100%;
+                text-align: center !important;
+            }
+        }
+    }
+}
+
+@media (max-width: 622px) {
+    .hero {
+        .hero__text {
+            .hero__text_title {
+                font-size: 48px;
+            }
+        }
+    }
+    .features {
+        .features__container {
+            .features__text {
+                font-size: 30px;
+            }
+        }
+    }
+}
+
+@media (max-width: 594px) {
+    .footer__items {
+        p {
+            margin-bottom: 20px;
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .header {
+        .hero {
+            margin-top: 80px;
+            .hero__text {
+                .hero__text_title {
+                    font-size: 40px;
+                }
+            }
+        }
+    }
+    .home {
+        .middle__section {
+            margin-top: 40px;
+            margin-bottom: 150px;
+        }
+
+    }
+    .features {
+        .features__container {
+            .features__text {
+                margin-bottom: 40px;
+            }
+            .features__boxes {
+                flex-direction: column;
+                .features__img {
+                    width: 100% !important;
+                    margin-bottom: 25px;
+                    .img__people {
+                        width: 60%;
+                    }
+                }
+                .features__items {
+                    width: 100% !important;
+                }
+            }
+        }
+    }
+
+    .footer {
+        .footer__section {
+            .footer__boxes {
+                justify-content: space-around !important;
+            }
+        }
+    }
+}
+
+
+
