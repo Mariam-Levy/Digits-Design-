@@ -423,7 +423,6 @@ html {
     width: 80%;
     height: 50%;
     margin-top: 100px;
-    /* border: 1px solid red; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -442,8 +441,7 @@ html {
   .design__box .design__img {
     width: 100%;
     margin-top: 30px;
-    /* height: 50%; */
-    /* border: 1px solid blue; */ }
+    /* height: 50%; */ }
     .design__box .design__img img {
       width: -webkit-fill-available; }
 
@@ -528,7 +526,5 @@ html {
         margin-top: 19px; }
         .message .message__container .message__box_rigth p .letter__yellow {
           color: #FED385; }
-
-/* aqui van los import */
 
 /*# sourceMappingURL=main.css.map */
