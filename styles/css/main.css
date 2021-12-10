@@ -12,7 +12,7 @@ a {
 
 @media (max-width: 814px) {
   .testimonials .testimonials__section .testimonials__boxes .testimonials__items {
-    width: 80% !important; } }
+    /* width: 80% !important; */ } }
 @media (max-width: 768px) {
   .header .hero {
     margin-top: 50px; }
@@ -72,6 +72,75 @@ a {
 
   .footer .footer__section .footer__boxes {
     justify-content: space-around !important; } }
+@media (max-width: 455px) {
+  .navbar__container .navbar__logo {
+    width: 150px;
+    flex: none !important; }
+    .navbar__container .navbar__logo img {
+      width: 100%; }
+  .navbar__container .navbar__list {
+    display: none !important; }
+  .navbar__container .navbar__contact {
+    display: none !important; }
+
+  .header .hero {
+    margin-top: 60px; }
+    .header .hero .hero__text .buttons {
+      display: flex;
+      flex-direction: column; }
+      .header .hero .hero__text .buttons .btn {
+        width: 100%;
+        margin-bottom: 20px; }
+      .header .hero .hero__text .buttons .btn-secundary {
+        width: 100%;
+        margin-left: 0; }
+
+  .middle__section {
+    margin-bottom: 60px !important; }
+
+  .features {
+    margin-bottom: 60px !important; }
+
+  .design__box {
+    margin-bottom: 60px !important;
+    min-height: 300px !important; }
+    .design__box .design__texts {
+      margin-top: 30px !important;
+      margin-bottom: 30px; }
+      .design__box .design__texts button {
+        width: 100%; }
+    .design__box .design__img {
+      display: none; }
+
+  .testimonials {
+    margin-top: 0 !important;
+    margin-bottom: 60px; }
+    .testimonials .testimonials__items {
+      justify-content: space-evenly;
+      width: 100% !important; }
+      .testimonials .testimonials__items p {
+        margin: 0 25px !important;
+        text-align: center !important; }
+      .testimonials .testimonials__items .happy img {
+        margin-bottom: 15px; }
+
+  .message {
+    margin-bottom: 0; }
+    .message .btn-message {
+      width: 100%; }
+
+  .footer {
+    margin-top: 60px !important; }
+    .footer .box__left {
+      height: 200px !important;
+      width: 100% !important; }
+    .footer .box__middle {
+      justify-content: space-between;
+      width: 100% !important;
+      height: 260px; }
+    .footer .box__right {
+      width: 100% !important;
+      height: 250px !important; } }
 /* ---- Componentes ---- */
 .navbar {
   min-height: 80px;
