@@ -10,4 +10,4 @@ HomePage para practicar HTML, CSS, SASS y Responsive.
 https://mariam-levy.github.io/Digits-Design-/
 
 ## Creditos ✒️
-Diseño realizado por []()
+Diseño realizado por [Darinka](https://darinka.design/)
